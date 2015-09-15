@@ -1,16 +1,52 @@
 body {
-	margin:20px;
+	font-family: Roboto, sans-serif;
+	margin: 0 auto;
+	background-color: #eee;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	padding: 15px;
+	background-color: #fff;
+	box-shadow: 0 5px 5px #ccc9c0;
+	margin: 0 0 100px 0;
 }
 
 h1 {
-  font-size: 1.5em;
+	margin: 0;
+	font-size: 4em;
+	font-weight: 100;
+	color: #ccc9c0;
+}
+
+#keyword {
+	height: 30px;
+	border: 2px solid #ccc9c0;
+	box-shadow: 5px 5px 0 #c9b26a;
+}
+
+#search {
+	color: #fff;
+	background: #c9b26a;
+	height: 35px;
+	border: 2px solid #c9b26a;
+	box-shadow: 5px 5px 0 #ccc9c0;
 }
 
 #feed {
-	margin:0;
-	padding:0;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
 }
 
-.date { 
-	color:#666;
+.date {
+	color: red;
+}
+
+img {
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  max-height: 200px;
 }
